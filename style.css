@@ -1,0 +1,185 @@
+/*
+
+Theme Name: Arianna Blog Theme
+Theme URI: Arianna Delin Blog
+Author: Arianna Delin
+Description: Blog theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: arianna_delin_blog_template
+
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+*{
+	font-size:16px;
+	line-height: 1.5rem;
+}
+
+h1, h1 a{
+	font-size: 3.5rem;
+	text-decoration: none;
+	color: #DB1ED9;
+	padding-top: 15px;
+	font-style: italic;
+}
+
+/*--- Header ---*/
+.header-wrapper{
+	padding-top: 5px;
+}
+
+h1 .site-title{
+	font-size: 4rem;
+	color: #DB1ED9;
+	padding-top: 5px;
+}
+
+/*--- Search Form ---*/
+.wie-search-form .screen-reader-text {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.row-search-form-row{
+	margin-top: 50px;
+}
+
+/*--- Search Bar CSS ---*/
+.search-bar-icon {
+    border: none;
+    color: #666;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    margin: 0;
+    min-height: 45px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+}
+input[type="search"] {
+    border: none;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    border-left: 1px solid #666;
+    min-height: 45px;
+    font-size: 1.2rem;
+    padding: 0;
+    width: 100%;
+    border-radius: inherit;
+    margin:0;
+    background-color: #fff;
+}
+
+/*--- Menu --- */
+.navigation{
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation ul{
+    list-style: none;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.navigation ul li a {
+    text-decoration:none;
+    margin: 4px;
+    font-weight: 500;
+    color: #870582;
+    font-size: 2rem; 
+}
+
+.navigation ul li a:hover {
+    color: #0000FF;
+}
+
+/*--INDEX--*/
+.bxslider{
+	width: 100%;
+	min-height: 60%;
+  	top: 0;
+  	left: 0;
+  	margin-bottom: 40px; 
+  	text-align: center;
+}
+
+h3, h3 a{
+	font-size: 2rem;
+	color: #000000;
+	line-height: 1.5rem;
+	font-family: 'Avenir Next Condensed';
+	padding-top: 20px;
+	font-weight: 400; 
+}
+
+h4{
+	font-size: 2rem;
+	color: #000000;
+	line-height: 1.5rem;
+	font-family: 'Avenir Next Condensed';
+	text-align: center;
+}
+
+p{
+	margin-bottom: 2.5rem;
+	line-height: 1.5rem;
+    color: #000000;
+    font-family: 'Cambria';
+}
+
+a{
+	color: #0617f8;
+	font-family: 'Cambria';
+	margin-bottom: 10px;
+	padding-top: -5px;
+	padding-bottom: 20px;
+}
+
+#profile{
+	background-color: none;
+	padding-bottom: 200px; 
+	padding-top: 200px; 
+	padding-left: 30px; 
+}
+
+.nine-columns{
+	padding-bottom: 40px; 
+}
+
+.nine-columns, h3 a{
+	text-align: left:;
+}
+
+/*--SIDEBAR--*/
+#sidebar{
+	background-color: #f886f4;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 40px; 
+}
+
+/*--FOOTER--*/
+#footer{
+	padding-top: 4px;
+	background-color: #9ab2cc;
+	text-align: right;
+	padding-right: 40px;
+	margin-top: 10px; 
+}
+
+
+
