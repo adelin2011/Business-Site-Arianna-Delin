@@ -122,13 +122,13 @@ wp_enqueue_script(
 );
 
 function enqueue_unslider(){
-    wp_enqueue_scripts()
+    wp_enqueue_script()
         'unslider',
         get_template_directory_uri() . '/scripts/unslider.js'
-        array('jquery').
+        array('jquery'),
         '',
         true
-        )
+        );
 }
 add_action('wp_enqueue_scripts', 'enqueue_unslider')
 
