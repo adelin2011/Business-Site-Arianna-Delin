@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container">
 	<section class="row">
 		<div class="two columns">
 			<?php
@@ -39,5 +39,5 @@
 			&nbsp;
 		</div>
 	</section>	
-
+</div>
 <?php get_footer(); ?>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container">
 	<div class="row">
 <!--BEGIN SIDEBAR-->		
 		<div class="three columns">
@@ -15,5 +15,5 @@
 				endif; ?>
 		</div>	
 	</div>	
-
+</div>
 <?php get_footer(); ?>
