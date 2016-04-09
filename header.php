@@ -18,11 +18,10 @@
 <div class="header-wrapper">
 	<div class="container">
 		<header class="row">
-			<div class="four columns"> 
-				<h1 class="site-title"> 
-					<a href="http://aridelin.com/WIE/"> Web Interactivity and Engagement</a></h1>
+			<div class="three columns"> 
+				<figure class="site-logo"> 	
 			</div> 
-				<div class="four columns">
+				<div class="nine columns">
 					<nav class="navigation">
 						<ul>
 							<li class="current_page"> <a href="index.html"> HOME </a> </li>
@@ -33,10 +32,6 @@
 						</ul>
 					</nav>
 				</div>	
-
-			<div class="four columns">
-	        	<?php get_search_form(); ?>
-	    	</div>
 		</header>
 		
 		<!--Wordpress menu
