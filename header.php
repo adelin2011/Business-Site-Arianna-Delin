@@ -34,6 +34,9 @@
 						</ul>
 					</nav>
 				</div>	
+				<figure class="site-logo2">
+					<img src="<?php echo get_template_directory_uri() . '/Img/Logo2.png'; ?>" width="100%" height="60%"> 	
+				</figure>
 		</header>
 		
 		<!--Wordpress menu
