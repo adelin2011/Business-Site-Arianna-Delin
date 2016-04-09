@@ -19,7 +19,9 @@
 	<div class="container">
 		<header class="row">
 			<div class="three columns"> 
-				<figure class="site-logo"> 	
+				<figure class="site-logo">
+					<img src="<?php echo get_template_directory_uri() . '/Img/Logo2.png'; ?>" width="100%" height="60%"> 	
+				</figure>
 			</div> 
 				<div class="nine columns">
 					<nav class="navigation">
