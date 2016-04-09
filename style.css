@@ -31,49 +31,12 @@ h1, h1 a{
 	padding-top: 5px;
 }
 
-h1 .site-title{
-	font-size: 4rem;
-	color: #DB1ED9;
-	padding-top: 5px;
+.site-logo{
+
 }
 
-/*--- Search Form ---*/
-.wie-search-form .screen-reader-text {
-    position: absolute;
-    left: -999em;
-    width: 1em;
-    overflow: hidden;
-}
-
-.row-search-form-row{
-	margin-top: 50px;
-}
-
-/*--- Search Bar CSS ---*/
-.search-bar-icon {
-    border: none;
-    color: #666;
-    text-align: center;
-    padding: 5px;
-    background-color: #fff;
-    margin: 0;
-    min-height: 45px;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
-    border-right: 1px solid #666;
-}
-input[type="search"] {
-    border: none;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
-    border-left: 1px solid #666;
-    min-height: 45px;
-    font-size: 1.2rem;
-    padding: 0;
-    width: 100%;
-    border-radius: inherit;
-    margin:0;
-    background-color: #fff;
+.site-logo2{
+	
 }
 
 /*--- Menu --- */
@@ -98,25 +61,36 @@ input[type="search"] {
     text-decoration:none;
     margin: 4px;
     font-weight: 500;
-    color: #870582;
+    color: #FFFFFF;
     font-size: 2rem; 
 }
 
 .navigation ul li a:hover {
-    color: #0000FF;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 /*--INDEX--*/
-.bxslider{
-	width: 100%;
-	min-height: 60%;
-  	top: 0;
-  	left: 0;
-  	margin-bottom: 40px; 
-  	text-align: center;
+#cover_image {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#cover_image img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
 
-h3, h3 a{
+
+/*h3, h3 a{
 	font-size: 2rem;
 	color: #000000;
 	line-height: 1.5rem;
@@ -170,6 +144,45 @@ a{
 	border-radius: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	margin-top: 40px; 
+}
+
+/*--- Search Form ---*/
+.wie-search-form .screen-reader-text {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.row-search-form-row{
+	margin-top: 50px;
+}
+
+/*--- Search Bar CSS ---*/
+.search-bar-icon {
+    border: none;
+    color: #666;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    margin: 0;
+    min-height: 45px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+}
+input[type="search"] {
+    border: none;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    border-left: 1px solid #666;
+    min-height: 45px;
+    font-size: 1.2rem;
+    padding: 0;
+    width: 100%;
+    border-radius: inherit;
+    margin:0;
+    background-color: #fff;
 }
 
 /*--FOOTER--*/

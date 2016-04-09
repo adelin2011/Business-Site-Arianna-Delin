@@ -20,7 +20,7 @@
 		<header class="row">
 			<div class="three columns"> 
 				<figure class="site-logo">
-					<img src="<?php echo get_template_directory_uri() . '/Img/Logo2.png'; ?>" width="100%" height="60%"> 	
+					<img src="<?php echo get_template_directory_uri() . '/Img/Logo2.png'; ?>" width="100%" height="100%"> 	
 				</figure>
 			</div> 
 				<div class="nine columns">
@@ -34,9 +34,6 @@
 						</ul>
 					</nav>
 				</div>	
-				<figure class="site-logo2">
-					<img src="<?php echo get_template_directory_uri() . '/Img/Logo2.png'; ?>" width="100%" height="60%"> 	
-				</figure>
 		</header>
 		
 		<!--Wordpress menu
