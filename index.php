@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <div class="row">
 	<div class="twelve columns">
-		<ul class="bxslider">
-			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>" width="100%" height="60%">
-		</ul>
+		<div id="cover_image">
+				<img src="Img/haulover pic.JPG" alt="cover_image">
+			</div>	
 	</div>
 </div>
 
