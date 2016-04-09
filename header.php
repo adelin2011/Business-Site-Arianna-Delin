@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title> <?php bloginfo('Web Interactivity and Engagement');?> </title>
+	<title> <?php bloginfo('Austin Sarmiento');?> </title>
 	<?php wp_head(); ?>
 	<link rel= "stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 
@@ -26,7 +26,9 @@
 					<nav class="navigation">
 						<ul>
 							<li class="current_page"> <a href="index.html"> HOME </a> </li>
-							<li> <a href="posts.html"> POSTS </a> </li>
+							<li> <a href="posts.html"> ABOUT </a> </li>
+							<li> <a href="posts.html"> SERVICES </a> </li>
+							<li> <a href="posts.html"> BLOG </a> </li>
 							<li> <a href="contact.html"> CONTACT </a> </li>
 						</ul>
 					</nav>
