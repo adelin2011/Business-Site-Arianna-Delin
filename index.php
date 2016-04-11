@@ -2,13 +2,19 @@
 <div class="row">
 	<div class="twelve columns">
 		<div id="cover_image">
-				<img src="Img/haulover pic.JPG" alt="cover_image">
-			</div>	
+			<img src="Img/haulover pic.JPG" alt="cover_image">
+		</div>	
 	</div>
 </div>
 
+<div class="row">
+	<div class="twelve columns">
+		<h1 id="site_title"> Austin Sarmiento </h1>
+	</div>	
+</div>	
+
 <section class="row">
-			<div class="nine columns white-bg">
+			<div class="nine columns white-bg"> 
 				<?php 
 				if ( have_posts() ) {
 				    while ( have_posts() ) {

@@ -85,6 +85,7 @@ h1, h1 a{
   width: 200%; 
   height: 200%;
 }
+
 #cover_image img {
   position: absolute; 
   top: 0; 
@@ -151,6 +152,7 @@ a{
 	border-radius: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	margin-top: 40px; 
+	text-align: left; 
 }
 
 /*--- Search Form ---*/
@@ -190,15 +192,6 @@ input[type="search"] {
     border-radius: inherit;
     margin:0;
     background-color: #fff;
-}
-
-/*--FOOTER--*/
-#footer{
-	padding-top: 4px;
-	background-color: #9ab2cc;
-	text-align: right;
-	padding-right: 40px;
-	margin-top: 10px; 
 }
 
 

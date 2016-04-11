@@ -7,11 +7,11 @@
 		</div>
 		<div class="four columns"> 
 			<?php dynamic_sidebar ('footer-middle'); ?>
-		</div> -->
+		</div> 
 
 		<div class="twelve columns" id="footer"> 
 			<?php dynamic_sidebar ('footer-right'); ?>
-		</div>
+		</div>-->
 	</footer>	
 </div>
 <?php wp_footer(); ?>

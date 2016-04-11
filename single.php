@@ -1,25 +1,7 @@
 <?php get_header(); ?>
 <div class="container">
-	<section class="row">
-		<div class="two columns">
-			<?php
-				$mood = get_post_meta($post-->ID, 'mood', true);
-				if ($mood){
-					echo $mood;
-				} else { ?>
-					<br/>
-					<?php }
-			?>
-			<?php
-				$activity = get_post_meta($post-->ID, 'activity_while_writing', true);
-				if ($activity){
-					echo $activity;
-				} else { ?>
-					<br/>
-					<?php }
-			?>
-		</div>
-		<div class="eight columns">
+	<div class="row">
+		<div class="ten columns">
 			<?php 
 			if (have_posts()){
 				while (have_posts()){
@@ -38,6 +20,6 @@
 		<div class="two columns">
 			&nbsp;
 		</div>
-	</section>	
+	</div>	
 </div>
 <?php get_footer(); ?>
