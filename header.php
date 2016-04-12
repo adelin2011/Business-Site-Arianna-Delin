@@ -27,9 +27,9 @@
 					<nav class="navigation">
 						<ul>
 							<li class="current_page"> <a href="index.html"> HOME </a> </li>
-							<li> <a href="posts.html"> ABOUT </a> </li>
-							<li> <a href="posts.html"> SERVICES </a> </li>
-							<li> <a href="posts.html"> BLOG </a> </li>
+							<li> <a href="about.html"> ABOUT </a> </li>
+							<li> <a href="services.html"> SERVICES </a> </li>
+							<li> <a href="blog.html"> BLOG </a> </li>
 							<li> <a href="contact.html"> CONTACT </a> </li>
 						</ul>
 					</nav>
