@@ -2,7 +2,7 @@
 <div class="row">
 	<div class="twelve columns">
 		<div id="cover_image">
-			<img src="<?php echo get_template_directory_uri() .'Img/haulover pic.JPG'; ?>" alt="cover_image">
+			<img src="<?php echo get_template_directory_uri() .'Img/haulover.jpg'; ?>" alt="cover_image">
 		</div>	
 	</div>
 </div>
