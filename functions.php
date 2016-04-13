@@ -30,10 +30,10 @@ function blank_widgets_init() {
         'after_title' => '</h3>'                        
         )); 
       register_sidebar( array(
-        'name' => ('Footer Right'),
-        'id' => 'footer-right',
-        'description' => 'Widget for right side of footer', 
-        'before_widget' => '<div class="widget-sidebar widget-footer">', 
+        'name' => ('Contact Widget'),
+        'id' => 'contact-widget',
+        'description' => 'Widget for the contact page', 
+        'before_widget' => '<div class="widget-sidebar">', 
         'after_widget' => '</div>',
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        

@@ -15,7 +15,10 @@
 				endif; ?>
 		</div>	
 		<div class="four columns">
-		<div>	
+			<img src="">
+			<?php dynamic_sidebar('contact-widget'); ?>
+		</div>	
 	</div>	
+
 </div>
 <?php get_footer(); ?>
