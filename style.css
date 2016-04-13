@@ -99,7 +99,7 @@ h1, h1 a{
 }
 
 html { 
-  background: url(Img/haulover.jpg) no-repeat center center fixed; 
+  background: <?php echo get_template_directory_uri() .'Img/haulover.jpg'; ?> no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
