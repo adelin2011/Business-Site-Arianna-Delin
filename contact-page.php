@@ -15,7 +15,7 @@
 				endif; ?>
 		</div>	
 		<div class="four columns">
-			<img src="<?php echo get_template_directory_uri() .'Img/insta.png'; ?>" alt="instagram">
+			<img src="<?php echo get_template_directory_uri() .'Img/me.jpg'; ?>" alt="instagram">
 			<?php dynamic_sidebar('contact-widget'); ?>
 		</div>	
 	</div>	
