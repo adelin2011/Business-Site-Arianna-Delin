@@ -40,6 +40,19 @@ h2{
   font-family: 'Baskerville SemiBold';
 }
 
+h3{
+  margin-top: 30px;
+}
+
+h3 a{
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 15px;
+  font-weight: 300;
+  font-family: 'Baskerville SemiBold';
+}
+
 /*--- Header ---*/
 .header-wrapper{
 	padding-top: 5px;
@@ -120,14 +133,7 @@ html {
   padding-top: 150px;
 }
 
-/*h3, h3 a{
-	font-size: 2rem;
-	color: #000000;
-	line-height: 1.5rem;
-	font-family: 'Avenir Next Condensed';
-	padding-top: 20px;
-	font-weight: 400; 
-}
+/*
 
 h4{
 	font-size: 2rem;
@@ -174,6 +180,10 @@ a{
 .unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer;}
 .unslider-arrow.next{left:auto;right:20px;}
 
+/*--Blog Page--*/
+a.blog-posts-thumbnail{
+  text-align: center;
+}
 /*--SIDEBAR--*/
 #sidebar{
 	margin-top: 40px; 
@@ -222,9 +232,10 @@ input[type="search"] {
 }
 
 /*--- Contact ---*/
-.socialmedia-buttons a{
+.socialmedia-buttons smw_center a{
   padding-left: 250px;
   padding-top: 60px; 
+
 }
 
 .wpcf7-form p{
