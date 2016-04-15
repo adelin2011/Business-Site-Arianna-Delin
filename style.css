@@ -26,9 +26,18 @@ Text Domain: Business-Site-Arianna-Delin
 h1, h1 a{
 	font-size: 3.5rem;
 	text-decoration: none;
-	color: #DB1ED9;
+	color: #000000;
 	padding-top: 15px;
 	font-style: italic;
+}
+
+h2{
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #000000;
+  padding-top: 15px;
+  font-style: italic;
+  font-family: 'Baskerville SemiBold';
 }
 
 /*--- Header ---*/
@@ -152,7 +161,7 @@ a{
   padding-top: 30px;
 }
 
-/*--Slider--*/
+/*--Slider
 .unslider{overflow:auto;margin:0;padding:0;}
 .unslider-wrap{position:relative;}
 .unslider-wrap.unslider-carousel>li{float:left;}
@@ -218,3 +227,11 @@ input[type="search"] {
   padding-top: 60px; 
 }
 
+.wpcf7-form p{
+  font-family: 'Baskerville';
+  font-style: italic;;
+}
+
+.wpcf7-form-control wpcf7-submit{
+  font-family: 'Baskerville';
+}
