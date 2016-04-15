@@ -41,21 +41,29 @@ h1, h1 a{
     width: 100%;
 }
 
-.site-logo2{
-	
-}
-
 /*--- Menu --- */
 .austins-menu-header{
   display: inline;
   margin: 0px 45px 0 0;
+  background-color: #a19f9f; 
 }
 
 .austins-menu-header ul li a{
-  color: ;
+  color: #f7f7fc;
   text-decoration: none;
-  font-style: italic;
   font-weight: bold;
+  font-family: 'champagne & limousines';
+  text-shadow: 3px 10px 8px;
+  font-size: 25px;
+}
+
+.austins-menu-header ul li a:hover{
+  color: #f7f7fc;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'champagne & limousines';
+  text-shadow: 3px 7px 8px;
+  text-decoration: underline;
 }
 
 /*--INDEX--*/
@@ -135,19 +143,13 @@ a{
 	padding-bottom: 20px;
 }
 
-#profile{
-	background-color: none;
-	padding-bottom: 200px; 
-	padding-top: 200px; 
-	padding-left: 30px; 
-}
-
-.nine-columns{
-	padding-bottom: 40px; 
-}
-
-.nine-columns, h3 a{
-	text-align: left:;
+/*--Services--*/
+.textwidget{
+  width:100%;
+  height:auto;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /*--Slider--*/
@@ -165,12 +167,9 @@ a{
 
 /*--SIDEBAR--*/
 #sidebar{
-	background-color: #f886f4;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
 	margin-top: 40px; 
 	text-align: left; 
+  font-family: 'Champagne & Limousines';
 }
 
 /*--- Search Form ---*/
@@ -198,6 +197,7 @@ a{
     border-bottom: 1px solid #666;
     border-right: 1px solid #666;
 }
+
 input[type="search"] {
     border: none;
     border-top: 1px solid #666;
@@ -212,5 +212,9 @@ input[type="search"] {
     background-color: #fff;
 }
 
-
+/*--- Contact ---*/
+.socialmedia-buttons a{
+  padding-left: 250px;
+  padding-top: 60px; 
+}
 

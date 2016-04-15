@@ -39,10 +39,10 @@ function blank_widgets_init() {
         'after_title' => '</h3>'                        
         ));
       register_sidebar( array(
-        'name' => ('Front Page Sidebar'),
-        'id' => 'front-page',
-        'description' => 'Widget for front page sidebar', 
-        'before_widget' => '<div class="widget-sidebar widget-frontpage">', 
+        'name' => ('Blog Page Sidebar'),
+        'id' => 'blog-widget',
+        'description' => 'Widget for blog page sidebar', 
+        'before_widget' => '<div class="widget-sidebar widget-blogpage">', 
         'after_widget' => '</div>',
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        

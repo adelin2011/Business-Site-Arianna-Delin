@@ -35,8 +35,8 @@ Template Name: Blog Posts
             <?php endif;
             wp_reset_query(); ?>
         </div>
-        <div class="three columns">
-            <h3> Filler Sidebar </h3> 
+        <div class="three columns" id="sidebar">
+            <?php dynamic_sidebar('blog-widget'); ?>
         </div>  
     </div>
 </div>  

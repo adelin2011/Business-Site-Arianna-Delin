@@ -13,7 +13,7 @@
 		<header class="row header">
 			<div class="three columns"> 
 				<figure class="site-logo">
-					<a href="http://aridelin.com/WIE/"><img src="<?php echo get_template_directory_uri() . '/Img/Logo2.png'; ?>" width="100%" height="auto"> </a>	
+					<a href="http://aridelin.com/business/"><img src="<?php echo get_template_directory_uri() . '/img/Logo2.png'; ?>" width="100%" height="auto"> </a>	
 				</figure>
 			</div> 
 				<div class="nine columns">
