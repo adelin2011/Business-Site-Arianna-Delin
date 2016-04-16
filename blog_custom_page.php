@@ -7,7 +7,7 @@ Template Name: Blog Posts
 <?php get_header(); ?>
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
    
-<div class="container"> 
+<div class="container" id="background"> 
     <div class="row">
         <div class="nine columns">
             <?php if (have_posts()) : 

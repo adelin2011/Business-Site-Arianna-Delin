@@ -158,6 +158,13 @@ a{
 	padding-bottom: 20px;
 }
 
+/*--About--*/
+#background{
+  background-color: #D3D3D3;
+  opacity: 0.8;
+  padding-left: 30px; 
+}
+
 /*--Services--*/
 .textwidget{
   width:100%;
