@@ -191,7 +191,15 @@ a.blog-posts-thumbnail{
   font-family: 'Champagne & Limousines';
 }
 
+.widget-sidebar widget-blogpage{
+  background-color: #d1d1d1;
+  box-shadow: 3px 7px 8px #090a0a;
+}
+
 /*--- Search Form ---*/
+.row-search-form-row{
+    margin-top: -40px;
+}
 .wie-search-form .screen-reader-text {
     position: absolute;
     left: -999em;
