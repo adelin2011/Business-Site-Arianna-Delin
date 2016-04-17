@@ -3,7 +3,7 @@
 */
 ?>
 <?php get_header(); ?>
-<div class="container">
+<div class="container" id="background">
 	<div class="row">
 		<div class="eight columns">
 			<?php if (have_posts()) :
@@ -16,7 +16,6 @@
 		<div class="four columns">
 			<?php dynamic_sidebar('contact-widget'); ?>
 		</div>	
-	</div>	
-
+	</div>
 </div>
 <?php get_footer(); ?>

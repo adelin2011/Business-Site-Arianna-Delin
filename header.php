@@ -25,7 +25,7 @@
 				<div class="nine columns">
 					<?php wp_nav_menu(array(
 	            		'sort_column' => 'menu_order', 
-	            		'container_class' => 'austins-menu-header'
+	            		'container_class' => 'menu'
 	            	));?>
 				</div>	
 		</header>

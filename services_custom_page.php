@@ -5,7 +5,7 @@ Template Name: Services
 ?>
 
 <?php get_header(); ?>
-<div class="container">
+<div class="container" id="background">
 	<div class="row"> <!--Widget Area-->		
 		<div class="four columns">
 			<!--<p>	
