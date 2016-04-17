@@ -71,22 +71,34 @@ h3 a{
 }
 
 /*--- Menu --- */
-.menu{
-  display: inline;
-  margin: 0px 45px 0 0;
-  background-color: #a19f9f; 
+.nine.columns {
+    width: 71%;
+    margin-top: 50px;
+    margin-left: -1px;
 }
 
-.menu ul li a{
+#menu-austins-menu{
+  margin: 0px 45px 0 0;
+  background-color: #a19f9f; 
+  padding-top: 7px; 
+  padding-bottom: 7px; 
+  padding-left: 30px; 
+  color: #f7f7fc;
+  font-family: 'champagne & limousines';
+}
+
+#menu-austins-menu li{
   color: #f7f7fc;
   text-decoration: none;
   font-weight: bold;
   font-family: 'champagne & limousines';
   text-shadow: 3px 10px 8px;
   font-size: 25px;
+  display: inline; 
+  padding-right: 30px;
 }
 
-.menu ul li a:hover{
+#menu-austins-menu ul li:hover{
   color: #f7f7fc;
   text-decoration: none;
   font-weight: bold;
