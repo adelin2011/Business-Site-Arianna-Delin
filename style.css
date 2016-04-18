@@ -53,6 +53,10 @@ h3 a{
   font-family: 'Baskerville SemiBold';
 }
 
+p{
+  line-height: 1.2;
+}
+
 #background{
   background-color: #D3D3D3;
   opacity: 0.8;
