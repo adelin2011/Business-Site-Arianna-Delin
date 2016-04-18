@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container">
+<div class="container" id="background">
 	<div class="row">
 		<div class="ten columns">
 			<?php 

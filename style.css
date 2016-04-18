@@ -187,13 +187,14 @@ a.blog-posts-thumbnail{
 	margin-top: 40px; 
 	text-align: left; 
   font-family: 'Champagne & Limousines';
-}
-
-.widget-sidebar widget-blogpage{
-  background-color: #d1d1d1;
+  background-color: #5A99A1;;
   box-shadow: 3px 7px 8px #090a0a;
+  padding-left: 5px;
 }
 
+#sidebar ul li a{
+  color: #F0FFFF;
+}
 /*--- Search Form ---*/
 .row-search-form-row{
     margin-top: -40px;
