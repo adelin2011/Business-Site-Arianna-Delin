@@ -75,7 +75,6 @@ p{
 }
 
 /*--- Menu --- */
-
 #menu-austins-menu{
   margin: 0px 45px 0 0;
   padding-top: 7px; 
@@ -156,9 +155,14 @@ html {
   height:auto;
   text-align: center;
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
+.widget-sidebar h3{
+  font-family: 'Baskerville';
+  font-style: italic;
+  text-align: center;
+}
 /*--Slider
 .unslider{overflow:auto;margin:0;padding:0;}
 .unslider-wrap{position:relative;}
