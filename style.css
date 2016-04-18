@@ -77,29 +77,40 @@ p{
 /*--- Menu --- */
 #menu-austins-menu{
   margin: 0px 45px 0 0;
-  padding-top: 7px; 
+  padding-top: 50px; 
   padding-bottom: 7px; 
   padding-left: 30px; 
   color: #f7f7fc;
   font-family: 'champagne & limousines';
 }
 
-#menu-austins-menu li{
-  color: #f7f7fc;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: 'champagne & limousines';
-  text-shadow: 3px 10px 8px;
-  font-size: 25px;
-  display: inline; 
-  padding-right: 30px;
+#menu-austins-menu li {
+    font-size: 25px;
+    display: inline;
+    padding-right: 30px;
+    color: #F7F7FC;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 10px 8px;
+    font-family: 'Champagne & Limousines';
 }
 
-#menu-austins-menu ul li:hover{
+#menu-austins-menu li a{
+    font-size: 25px;
+    display: inline;
+    padding-right: 30px;
+    color: #F7F7FC;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 10px 8px;
+    font-family: 'Champagne & Limousines';
+}
+
+#menu-austins-menu li a:hover{
   color: #f7f7fc;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'champagne & limousines';
+  font-family: 'Champagne & Limousines';
   text-shadow: 3px 7px 8px;
   text-decoration: underline;
 }
@@ -195,7 +206,7 @@ a.blog-posts-thumbnail{
 }
 /*--- Search Form ---*/
 .row-search-form-row{
-    margin-top: -40px;
+    margin-top: -10px;
 }
 .wie-search-form .screen-reader-text {
     position: absolute;
@@ -250,3 +261,4 @@ input[type="search"] {
 .wpcf7-form-control wpcf7-submit{
   font-family: 'Baskerville';
 }
+
