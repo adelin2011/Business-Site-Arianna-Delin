@@ -75,15 +75,9 @@ p{
 }
 
 /*--- Menu --- */
-.nine.columns {
-    width: 71%;
-    margin-top: 50px;
-    margin-left: -1px;
-}
 
 #menu-austins-menu{
   margin: 0px 45px 0 0;
-  background-color: #a19f9f; 
   padding-top: 7px; 
   padding-bottom: 7px; 
   padding-left: 30px; 
