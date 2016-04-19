@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 <div class="container" id="background">
 	<div class="row">
-		<div class="eight columns">
+		<div class="six columns">
 			<?php if (have_posts()) :
 					while (have_posts()) : the_post();?>
 						<h2> <?php the_title (); ?></h2>
@@ -13,7 +13,7 @@
 					endwhile;
 				endif; ?>
 		</div>	
-		<div class="four columns">
+		<div class="six columns">
 			<?php dynamic_sidebar('contact-widget'); ?>
 		</div>	
 	</div>
