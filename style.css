@@ -249,7 +249,7 @@ input[type="search"] {
 
 /*--- Contact ---*/
 .socialmedia-buttons a{
-  padding-left: 250px;
+  padding-left: 30px;
   padding-top: 60px; 
 }
 
@@ -262,3 +262,10 @@ input[type="search"] {
   font-family: 'Baskerville';
 }
 
+input {
+    width: 80%;
+}
+
+.profile{
+  width:100%;
+}
