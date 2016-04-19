@@ -166,5 +166,3 @@ register_post_type( 'slider', $args );
 add_action( 'init', 'slider_tutorial' );
 
 ?>
-
-?>
