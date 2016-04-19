@@ -8,7 +8,6 @@ Template Name: Home Page
 <div class="container">
 	<div class="row">
 		<div class="twelve columns">
-				
 		</div>
 	</div>
 
