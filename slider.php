@@ -9,28 +9,36 @@ Template Name: Slider
 			<div class="twelve columns">
 				<div class="my-slider">
 				    <ul>
-				        <li style="background-image: url('slide01.jpg');">
-				            <div class="slides-message">
-				                <h1>Slide One Title</h1>
-				                <p>This is where the excerpt for the slides will go</p>
-				            </div>
-				        </li>
-				        <li style="background-image: url('slide02.jpg');">
-				            <div class="slides-message">
-				                <h1>Slide Two Title</h1>
-				                <p>This is where the excerpt for the slides will go</p>
-				            </div>
-				        </li>
-				        <li style="background-image: url('slide03.jpg');">
-				            <div class="slides-message">
-				                <h1>Slide Three Title</h1>
-				                <p>This is where the excerpt for the slides will go</p>
-				            </div>
-				        </li>
-				    </ul>  
- 				</div> 
+				<?php
+				    $args = array( 'post_type' => 'Slider' );
+				    $slides = new WP_Query( $args );
+				    if( $slides->have_posts() ) {
+				      while( $slides->have_posts() ) {
+				        $slides->the_post();
+				        /*--- Build Thumbnail URL ---*/
+				        $thumb_id = get_post_thumbnail_id();
+				        $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
+				        $thumb_url = $thumb_url_array[0];
+				        ?>
+				            <li style="background-image: url('<?php echo $thumb_url ?>');" class="slide-container">
+				                <div class="slides-message">
+				                    <h1><?php the_title() ?></h1>
+				                    <p><?php the_excerpt() ?></p>
+				                </div>
+				            </li>
+				        <?php
+				      }
+				    }
+				    else {
+				      echo 'No Slides';
+				    }
+				?>
+				    </ul>
+				</div>
  			</div> 	
  		</div> 	
 	</div>
 			
 <?php get_footer(); ?>
+
+
