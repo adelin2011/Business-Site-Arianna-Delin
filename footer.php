@@ -14,16 +14,11 @@
 		</div>-->
 	</footer>	
 </div>
+	<script>
+	    jQuery(document() . ready(function($) {
+	    	$('.my-slider').unslider();
+	        });
+	</script>
     <?php wp_footer(); ?>
-
-<!-- Begin Unslider Initiator -->    
-<script>
-    $(function() { $('.my-slider').unslider({
-        autoplay: true 
-        });
-    });
-</script>
-<!-- End Unslider Initiator -->
-
 </body>
 </html>
