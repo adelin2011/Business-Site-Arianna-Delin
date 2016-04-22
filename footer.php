@@ -14,11 +14,11 @@
 		</div>-->
 	</footer>	
 </div>
-	<script>
+    <?php wp_footer(); ?>
+    <script>
 	    jQuery(document() . ready(function($) {
 	    	$('.my-slider').unslider();
 	        });
 	</script>
-    <?php wp_footer(); ?>
 </body>
 </html>

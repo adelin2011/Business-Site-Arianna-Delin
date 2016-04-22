@@ -9,30 +9,9 @@ Template Name: Slider
 			<div class="twelve columns">
 				<div class="my-slider">
 				    <ul>
-				<?php
-				    $args = array( 'post_type' => 'Slider' );
-				    $slides = new WP_Query( $args );
-				    if( $slides->have_posts() ) {
-				      while( $slides->have_posts() ) {
-				        $slides->the_post();
-				        /*--- Build Thumbnail URL ---*/
-				        $thumb_id = get_post_thumbnail_id();
-				        $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-				        $thumb_url = $thumb_url_array[0];
-				        ?>
-				            <li style="background-image: url('<?php echo $thumb_url ?>');" class="slide-container">
-				                <div class="slides-message">
-				                    <h1><?php the_title() ?></h1>
-				                    <p><?php the_excerpt() ?></p>
-				                </div>
-				            </li>
-				        <?php
-				      }
-				    }
-				    else {
-				      echo 'No Slides';
-				    }
-				?>
+						<li><img scr="<?php echo get_template_directory_uri () . '/img/tracks.jpg'; ?>" alt="tracks"></li>
+				    	<li><img scr="<?php echo get_template_directory_uri () . '/img/overpass.jpg'; ?>" alt="overpass"></li>
+				    	<li><img scr="<?php echo get_template_directory_uri () . '/img/audi2.jpg'; ?>" alt="audi"></li>
 				    </ul>
 				</div>
  			</div> 	
