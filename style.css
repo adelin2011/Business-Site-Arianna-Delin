@@ -57,9 +57,13 @@ p{
   line-height: 1.2;
 }
 
+a{
+  color: #0000FF;
+}
+
 #background{
   background-color: #D3D3D3;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 30px 30px 30px 30px; 
   margin-bottom: 30px;
   }
@@ -175,7 +179,59 @@ html {
   text-align: center;
 }
 
-/*--Slider--*/
+/*Gallery*/
+
+html, body, div, span, a,  ul, li, img {
+  margin: 0; padding: 0;
+  border: 0; outline: 0;
+  font-size: 100%;background: transparent;}
+  ul {
+    list-style: none;}
+  :focus {
+    outline: 0;}
+  a {
+    text-decoration:none;}
+
+.wrap {
+  margin: 0 auto;
+} 
+
+.photos {
+  float:left; 
+  position:relative; 
+  display:inline-block; 
+  width:300px; 
+  height:300px;
+  margin:10px; 
+  padding:10px; 
+  background:#fff; 
+  box-shadow:0 0 5px rgba(0,0,0,.35);
+}
+
+.photos div {
+  width:280px;
+  line-height:50px;
+  color:#fff;
+  transition:height 3s;
+}
+
+.photos:hover div {
+  height:50px;
+}
+
+.wrap {
+  -webkit-transition: all 3s ease;
+     -moz-transition: all 3s ease;
+       -o-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+          transition: all 3s ease;
+}
+ 
+.wrap:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+/*--Slider
 .unslider{overflow:auto;margin:0;padding:0;}
 .unslider-wrap{position:relative;}
 .unslider-wrap.unslider-carousel>li{float:left;}
